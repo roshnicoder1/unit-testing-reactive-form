@@ -1,0 +1,10 @@
+<mat-toolbar color="primary">
+    <span class="app-title">Keep</span>
+    <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+        <mat-icon>more_vert</mat-icon>
+    </button>
+    <mat-menu #menu="matMenu">
+        <button mat-menu-item>Login</button>
+        <button mat-menu-item>Register</button>
+    </mat-menu>
+</mat-toolbar>
